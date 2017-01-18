@@ -9,16 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // MARK: - Variable
+    
+    
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-     
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        AlertViewController.showAlertMessage(vc: self, titleStr: "Message", messageStr: "Message Detail.")
+        AlertViewController.showAlertMessage(titleStr: "Test", messageStr: "test.")
     }
 
 }
