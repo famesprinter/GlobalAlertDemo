@@ -13,5 +13,7 @@ class ViewControllerTwo: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        AlertViewController.showAlertMessage(titleStr: "TEST",
+                                             messageStr: "test")
     }
 }
