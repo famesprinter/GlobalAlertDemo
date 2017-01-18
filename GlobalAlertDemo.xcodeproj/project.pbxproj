@@ -12,6 +12,7 @@
 		F05DFE751E2F1E240019B22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05DFE731E2F1E240019B22A /* Main.storyboard */; };
 		F05DFE771E2F1E240019B22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05DFE761E2F1E240019B22A /* Assets.xcassets */; };
 		F05DFE7A1E2F1E240019B22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05DFE781E2F1E240019B22A /* LaunchScreen.storyboard */; };
+		F05DFE841E2F20050019B22A /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05DFE831E2F20050019B22A /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F05DFE761E2F1E240019B22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F05DFE791E2F1E240019B22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F05DFE7B1E2F1E240019B22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05DFE831E2F20050019B22A /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		F05DFE6E1E2F1E240019B22A /* GlobalAlertDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F05DFE6F1E2F1E240019B22A /* AppDelegate.swift */,
-				F05DFE711E2F1E240019B22A /* ViewController.swift */,
+				F05DFE821E2F1EFD0019B22A /* Assets */,
 				F05DFE731E2F1E240019B22A /* Main.storyboard */,
-				F05DFE761E2F1E240019B22A /* Assets.xcassets */,
-				F05DFE781E2F1E240019B22A /* LaunchScreen.storyboard */,
-				F05DFE7B1E2F1E240019B22A /* Info.plist */,
+				F05DFE711E2F1E240019B22A /* ViewController.swift */,
+				F05DFE831E2F20050019B22A /* AlertViewController.swift */,
+				F05DFE811E2F1E860019B22A /* Supporting Files */,
 			);
 			path = GlobalAlertDemo;
+			sourceTree = "<group>";
+		};
+		F05DFE811E2F1E860019B22A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05DFE781E2F1E240019B22A /* LaunchScreen.storyboard */,
+				F05DFE6F1E2F1E240019B22A /* AppDelegate.swift */,
+				F05DFE7B1E2F1E240019B22A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F05DFE821E2F1EFD0019B22A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F05DFE761E2F1E240019B22A /* Assets.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F05DFE721E2F1E240019B22A /* ViewController.swift in Sources */,
+				F05DFE841E2F20050019B22A /* AlertViewController.swift in Sources */,
 				F05DFE701E2F1E240019B22A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +317,7 @@
 				F05DFE801E2F1E240019B22A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
